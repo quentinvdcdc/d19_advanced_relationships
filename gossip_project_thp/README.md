@@ -1,24 +1,40 @@
-# README
+Hello la correction, bienvenue dans ce petit repo, el famoso Ruby on Rails 2nd édition;
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Le principe de l'exercice est simple :
 
-Things you may want to cover:
+THPotin/The Gossip Project/...
 
-* Ruby version
 
-* System dependencies
+Le parcours utilisateur est le suivant : sur ce super réseau social, un utilisateur va s'inscrire, renseigner son prénom et nom, son mail et son age, puis il précisera sa ville avec une recherche par code postal. 
 
-* Configuration
+ON A FAIS LES BONUS, BITCH
 
-* Database creation
 
-* Database initialization
+Pour faire fonctionner tout ça rien de bien compliqué : 
+~~~~~~~~~~~~~~~~~~~~
+$ bundle install
 
-* How to run the test suite
+$ rails db:migrate
 
-* Services (job queues, cache servers, search engines, etc.)
+$ rails db:seed
 
-* Deployment instructions
+$ rails c
 
-* ...
+$ tp User.all
+
+ ect...
+~~~~~~~~~~~~~~~~~~~~
+------
+
+par Quentin vandecandelaere @Quentin vandecandelaere 
+------
+
+&
+par Martin François @tinmar
+------
+
+&
+Xavier Refour @Xavier.Refour
+------
+
+![](https://media.giphy.com/media/knC8ISmQysyOs/giphy.gif)
